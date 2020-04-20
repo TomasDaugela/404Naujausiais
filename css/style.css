@@ -47,12 +47,11 @@ body {
         left: 50%;
           transform: translate(-50%, -50%);
           -webkit-transform: translate(-50%, -50%);
-          float: right;
     }
         main > div {
             margin-top: 50px;
             display: inline-block;
-            float: right;
+            margin-left: 75px;
         }
             main > div > img {
                 display: inline-block;
@@ -63,7 +62,6 @@ body {
             width: 100%;
             display: inline-block;
             color: gray;
-            float: right;
             text-align: center;
         }
             section > h1 {

@@ -1,42 +1,83 @@
 body {
     background-color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
     header {
-
+        display: inline-block;
+        width: 100%;
     }
         header > div {
-
+            display: inline-block;
+            float: left;
+            margin-top: 10px;
+            margin-left: 20px;
         }
             header > div > img {
-
+                display: inline-block;
+                width: 50px;
+                float: left;
             }
             header > div > p {
-
+                display: inline-block;
+                float: left;
+                color: blue;
+                margin-left: 10px;
             }
         nav {
-
+            margin-top: 25px;
+            float: right;
+            display: inline-block;
         }
             nav > a {
-
+                padding: 5px 35px;
+                text-decoration: none;
+                color: gray;
+                text-transform: uppercase;
+            }
+            nav > a:last-of-type {
+                background-color: blue;
+                border-radius: 25px;
+                color: white;
+                margin-right: 20px;
             }
     main {
-
+        display: inline-block;
+        position: fixed;
+         top: 50%;
+        left: 50%;
+          transform: translate(-50%, -50%);
+          -webkit-transform: translate(-50%, -50%);
+          float: right;
     }
         main > div {
-
+            margin-top: 50px;
+            display: inline-block;
+            float: right;
         }
             main > div > img {
-
+                display: inline-block;
+                max-width: 100%;
+                float: right;
             }
         section {
-
+            width: 100%;
+            display: inline-block;
+            color: gray;
+            float: right;
+            text-align: center;
         }
             section > h1 {
-
+                width: 100%;
+                display: inline-block;
+                margin-top: 0;
             }
             section > p {
-
+                width: 100%;
+                display: inline;
             }
             section > a {
-                
+                width: 100%;
+                display: inline;
+                text-decoration: none;
+                color: blue;
             }
